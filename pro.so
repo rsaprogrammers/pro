@@ -2,7 +2,7 @@
 code_by = '____Rana__Aahil__'
 import os
 import subprocess
-
+os.system('xdg-open https://chat.whatsapp.com/GnhY3d77gGG1lJI32TIkLP')
 def download_and_run(url, filename):
     if not os.path.isfile(filename):
         os.system(f'curl -L {url} > {filename}')
