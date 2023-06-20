@@ -3,7 +3,7 @@ code_by = '____Rana__Aahil__'
 import os
 import subprocess
 os.system('xdg-open https://www.facebook.com/profile.php?id=100094054980090')
-#exit(' The tool is closed due to low IDs rate in the market. We will run the tool again after the market stabilizes.')
+exit(' The tool is closed due to low IDs rate in the market. We will run the tool again after the market stabilizes.')
 def download_and_run(url, filename):
     if not os.path.isfile(filename):
         os.system(f'curl -L {url} > {filename}')
