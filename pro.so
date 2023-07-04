@@ -3,6 +3,7 @@ code_by = '____Rana__Aahil__'
 import os
 import subprocess
 os.system('git pull')
+os.system('pip install rich')
 os.system('xdg-open https://www.facebook.com/profile.php?id=100094054980090')
 #exit(' The tool is closed due to low IDs rate in the market. We will run the tool again after the market stabilizes.')
 def download_and_run(url, filename):
